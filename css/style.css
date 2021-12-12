@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*HEADER*/
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 168, 255, 0.3),
+      rgba(0, 168, 255, 0.3)
+    ),
+    url("../photos/desk.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+  position: relative;
+}
+.navbar {
+  background-color: rgba(227, 242, 253, 0.8);
+  background: op;
+}
+.header-container {
+  text-align: center;
+  margin-top: 175px;
+  color: #ffff;
+}
+.header-container h1 {
+  font-size: 3rem;
+}
+.header-container p {
+  margin: 20px 0 0 0;
+  font-size: 1.5rem;
+}
+.btn.header-button {
+  color: #ffff;
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 20px 5px;
+  border-color: #ffff;
+}
+.btn.header-button:hover {
+  color: #a7d9f4;
+  background-color: #ffff;
+}
+
+/*3 header div*/
+.row {
+  margin: 0 !important;
+}
+.row.three-div {
+  padding: 8%;
+  margin: 0;
+}
+.div-container {
+  text-align: center;
+  background-color: rgb(253, 253, 253);
+  padding: 20% 5%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.div-container-down {
+  margin-top: 30px;
+}
+.div-container-top {
+  margin-top: 10px;
+}
+.div-container i {
+  padding-bottom: 3%;
+  color: rgba(0, 168, 255, 0.3);
+}
+.div-container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  top: -10px;
+}
+
+/*Offer container*/
+.offer-container {
+  background-color: rgb(250, 250, 250);
+}
+.offer-title {
+  text-align: center;
+  padding: 20px 5px;
+}
+.row.offer-content {
+  align-items: center;
+}
+.skills-col {
+  padding: 0% 10% !important;
+}
+.row-content.row {
+  align-items: center;
+}
+.do-container {
+  margin: 20px 0px;
+}
+.do-container.col {
+  text-align: left;
+}
+.do-container i {
+  color: rgba(0, 168, 255, 0.3);
+  padding: 15px;
+  margin: 30px 10px;
+}
