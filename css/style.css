@@ -55,7 +55,7 @@
 }
 .div-container {
   text-align: center;
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(250, 250, 250);
   padding: 20% 5%;
   position: relative;
   top: 0;
@@ -103,6 +103,82 @@
   color: rgba(0, 168, 255, 0.3);
   padding: 15px;
   margin: 30px 10px;
+}
+/*Count*/
+.count-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5% 10%;
+}
+.count-container h3 {
+  padding: 20px 0;
+}
+
+/*pricing*/
+#pricing {
+  width: 100%;
+  height: 100vh;
+  padding: 5% 10%;
+  position: relative;
+}
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+#pricing:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+.pricing-container h2 {
+  padding: 0% 0% 3% 0%;
+}
+.card-header {
+  background-color: white !important;
+}
+.card-header h3 {
+  padding: 2%;
+  font-weight: 700;
+}
+.card-footer {
+  background-color: #ffff !important;
+}
+.btn.purchase-btn {
+  color: #a7d9f4;
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: #a7d9f4;
+}
+.first-card {
+  margin: 0px 0px 25px 0px !important;
+}
+.card span {
+  font-size: 3rem;
+}
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  top: -10px;
+}
+.card:hover h3 {
+  color: #a7d9f4;
+}
+.card:hover span {
+  color: #a7d9f4;
+}
+.card:hover .btn.purchase-btn {
+  color: #ffff;
+  background-color: #a7d9f4;
+}
+.card.top-card {
+  bottom: 15px;
 }
 
 @media screen and (min-height: 768px) {
